@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+
+        <item android:id="@+id/menu_finished_task"
+            android:icon="@drawable/ic_finished_task"
+            android:title="Finished Task" />
+
+        <item android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

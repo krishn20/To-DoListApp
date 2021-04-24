@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="TODO"
+            android:src="@drawable/to_do_list_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/playfair_display_regular"
+            android:gravity="center_horizontal"
+            android:maxLines="2"
+            android:text="Welcome to To-Do List !"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <EditText
+                android:id="@+id/et_name_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autofillHints="E.g.- John Doe"
+                android:background="@drawable/input_field"
+                android:drawableStart="@drawable/ic_person"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_regular"
+                android:hint="Enter your Name"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/et_email_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autofillHints="E.g.- John Doe"
+                android:background="@drawable/input_field"
+                android:drawableStart="@drawable/ic_email"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_regular"
+                android:hint="Enter your Email"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/et_password_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:autofillHints="E.g.- johdoe@gmail.com"
+                android:background="@drawable/input_field"
+                android:drawableStart="@drawable/ic_password"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/lato_regular"
+                android:hint="Enter your Password"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Register" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/shade_black" />
+
+            <Button
+                android:id="@+id/btn_login_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/design_default_color_primary_variant"
+                android:text="Already a User? Login here!"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
