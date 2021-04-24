@@ -1,6 +1,6 @@
 # **To-DoListApp**
 
-A To-Do List App where one can create,edit and delete tasks. The API and DB for the same have also been created.
+A To-Do List App where one can create,edit and delete tasks. The API and DB for the same have also been created. The API has been deployed as an app on Heroku.
 
 ### _App Features_
 
